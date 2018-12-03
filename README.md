@@ -1,6 +1,6 @@
 # Giphy-App-DAV
 
-Giphy API application using ajax and JSON
+Giphy API application using ajax and JSON. I made this app display 12 images.
 
 This app is also responsive.
 

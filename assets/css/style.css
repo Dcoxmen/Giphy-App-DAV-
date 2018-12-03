@@ -11,7 +11,6 @@ img {
   height: 150px;
   width: 150px;
 }
-
 .btn {
   margin: 3px;
   background-color: #034079;
@@ -24,21 +23,28 @@ img {
 .btns-wrap {
   background-color: #ffffff;
 
-  padding: 10px 2px;
-  margin: 10px 4px;
-}
-h3 {
-  text-align: center;
-  margin-top: 60px;
+  padding: 4px 2px;
+  margin: 4px 4px;
 }
 .gif-con {
   text-align: center;
   margin-left: 6%;
 }
+.rate-card {
+  text-align: center;
+  background-color: #034079;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 60px;
+}
 
 #myGifForm {
   text-align: center;
   background-color: #ffffff;
+  padding-bottom: 20px;
 }
 #gifButtons {
   text-align: center;

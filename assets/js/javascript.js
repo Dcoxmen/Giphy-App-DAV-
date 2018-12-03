@@ -4,10 +4,10 @@ $(document).ready(function() {
     "Swimming",
     "Climbing",
     "Singing",
-    "Twerking",
+    "Kicking",
     "Jumping",
     "Shaking",
-    "Rolling"
+    "Kissing"
   ];
   //this function displays the buttons in id gifButtons div
   function buttonsDisplay() {
@@ -68,9 +68,7 @@ $(document).ready(function() {
       for (var i = 0; i < results.length; i++) {
         var gifDiv = $("<div>"); //div for the gifs to go inside
         gifDiv.addClass("gifDiv");
-        // pulling rating of gif
-        var gifRating = $("<p>").text("Rating: " + results[i].rating);
-        gifDiv.append(gifRating);
+
         // pulling gif
         var gifImage = $("<img>");
         gifImage.attr("src", results[i].images.fixed_height_small_still.url); // still image stored into src of image
@@ -83,6 +81,12 @@ $(document).ready(function() {
         gifImage.addClass("image");
         gifDiv.append(gifImage);
         $("#myGifs").prepend(gifDiv);
+
+        // pulling rating of gif
+        var gifRating = $("<p class='rate-card'>").text(
+          "Rating: " + results[i].rating
+        );
+        gifDiv.append(gifRating);
       }
     });
   }
