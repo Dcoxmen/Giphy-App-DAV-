@@ -1,0 +1,53 @@
+body {
+  background-image: url("../images/wavy-dots.png");
+  background-size: 100%;
+  background-repeat: repeat;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.btn {
+  margin: 3px;
+  background-color: #034079;
+  border-color: #fff;
+}
+.gifDiv {
+  float: left;
+  margin: 3px;
+}
+.btns-wrap {
+  background-color: #ffffff;
+
+  padding: 10px 2px;
+  margin: 10px 4px;
+}
+h3 {
+  text-align: center;
+  margin-top: 60px;
+}
+.gif-con {
+  text-align: center;
+  margin-left: 6%;
+}
+
+#myGifForm {
+  text-align: center;
+  background-color: #ffffff;
+}
+#gifButtons {
+  text-align: center;
+}
+div#footer {
+  clear: both;
+  margin-top: 40px;
+  position: center;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}

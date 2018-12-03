@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Giphy GIF by DAV</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-sm-12"><h3>Giphy GIF Application by DAV</h3></div>
+    <!-- Button Area -->
+    <div id="gifButtons" class="btns-wrap col-sm-12"></div>
+
+    <div class="col-sm-12">
+      <!-- Search for GIF area Form -->
+      <form id="myGifForm" role="form">
+        <h3><legend>Submit an Event/Action</legend></h3>
+        <div class="form-group col-sm-12">
+          <input type="text" id="event-input" />
+        </div>
+        <!-- Buttons to add and remove extra buttons-->
+        <input
+          id="addGif"
+          type="submit"
+          value="Add Event"
+          class="btn btn-primary"
+        />
+        <input
+          id="removeGif"
+          type="submit"
+          value="Remove Event"
+          class="btn btn-primary"
+        />
+      </form>
+    </div>
+   
+      <div class="gif-con col-sm-12">
+        <!-- Render GIFs Area -->
+        <div id="myGifs"></div>
+      </div>
+    </div>
+  </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./assets/js/javascript.js"></script>
+  </body>
+</html>
