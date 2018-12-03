@@ -50,7 +50,7 @@ $(document).ready(function() {
     var event = $(this).attr("data-name");
     //api url string
     var apiURL =
-      "http://api.giphy.com/v1/gifs/search?q=" +
+      "https://api.giphy.com/v1/gifs/search?q=" +
       event +
       "&api_key=sYAxNyVTIWOWfoyFGSvZwDdC3wwKOOTR&limit=12";
     console.log(apiURL);
